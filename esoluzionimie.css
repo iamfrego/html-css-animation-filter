@@ -68,3 +68,40 @@
     filter: contrast(200%) brightness(150%);
     border-radius: 30px;
 }
+
+.ex-9-img {
+    transition: 5s;
+}
+
+.ex-9-img:hover {
+    filter: contrast(200%) brightness(150%);
+    border-radius: 30px;
+    transform: scale(2);
+}
+
+.ex-10-icon {
+    animation: move 5s linear 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: tqgiro 5s linear 2s;
+}
+
+@keyframes tqgiro {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
