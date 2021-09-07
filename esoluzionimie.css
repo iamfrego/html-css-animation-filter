@@ -45,9 +45,26 @@
 }
 
 .ex-6-img {
-    transition: 2s;
+    transition: 0s;
 }
 
 .ex-6-img:hover {
     filter: grayscale();
+}
+
+.ex-7-img {
+    transition: 5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale() drop-shadow(8px 8px 10px gray);
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: contrast(200%) brightness(150%);
+    border-radius: 30px;
 }
